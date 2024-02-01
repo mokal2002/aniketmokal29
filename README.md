@@ -20,7 +20,8 @@ Hello there! 👋 I'm [Aniket Mokal], a passionate software developer specializi
 - **Description** :Welcome to the eBook Library project! This web application is designed to serve as a digital library where users can explore, borrow, and read a wide variety of eBooks. The project is built using Python with the Django framework for the backend, and HTML, CSS, JavaScript, and Bootstrap for the frontend.
   
 - **Technologies Used**: Python Django,python, HTML, CSS, JavaScript,Bootstrap.
-Link: [[Project 1 GitHub Repo or Live Demo](https://github.com/mokal2002/College-Project-eBookLIbrary)]
+- 
+- **Link**: [[College-Project-eBookLIbrary](https://github.com/mokal2002/College-Project-eBookLIbrary)]
 [Project 2 Name]
 Description: Brief description of the project, emphasizing your involvement and achievements.
 Technologies Used: Python Django, PostgreSQL, HTML, CSS, Bootstrap.
