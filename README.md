@@ -12,7 +12,7 @@ Hello there! 👋 I'm [Aniket Mokal], a passionate software developer specializi
 
 - **Version Control** : Git and GitHub for version control, collaboration, and managing code repositories.
 
-= **Software Development Life Cycle** : Well-versed in the SDLC, including requirements analysis, design, development, testing, and deployment.
+- **Software Development Life Cycle** : Well-versed in the SDLC, including requirements analysis, design, development, testing, and deployment.
 
 # Projects
 **EBook Library**
