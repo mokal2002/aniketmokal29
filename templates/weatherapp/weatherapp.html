@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Django Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            {% comment %} background-img: url("assets/back.jpg") {% endcomment %}
+            min-height: 100vh;
+        }
+        .mysection {
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .mysection img {
+            width: 100%;
+            height: 80%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            cursor: pointer;
+
+            
+          
+        }   
+
+        
+        
+        .weather-cont {
+            width: 35rem;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 20px );
+            -webkit-backdrop-filter: blur( 20px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            padding: 1rem 0.8rem;
+            margin: auto;
+            margin-top: -50rem;
+        }
+        .city-search {
+            
+            
+            position: relative;
+            width: 20em;
+            margin: auto;
+        }
+        .city-search input {
+            background-color: #fff;
+            font-weight: 600;
+        }
+        .location {
+            position: absolute;
+            left: 0.5em;
+            top: 0.5em;
+        }
+        .city-name {
+            font-size: 1.5em;
+        }
+        .temp {
+            font-weight: bold;
+            font-size: 2.5em;
+        }
+        .temp-details {
+            width: 22em;
+            margin: auto;
+        }
+        .temp-details p {
+            font-weight: 600;
+        }
+        .temp-extra p {
+            margin-bottom: 0;
+        }
+        .temp-div p {
+            margin-bottom: 0;
+        }
+        .error-msg {
+            font-size: 2em;
+            color: red;
+            font-weight: bold;
+        }
+        @media screen and (max-width:600px) {
+           
+            
+            .weather-cont {
+                width: auto;
+                margin: auto 1rem;
+            margin-top: -15rem;
+
+            }
+        }
+    </style>
+</head>
+
+<body>{% load static %}
+    <section class="mysection">
+<img src="{% static "assets/background.jpg" %}" />
+    <div class="weather-cont">
+        <h1 class="text-center mb-4">Django Weather App</h1>
+        <form action="" method="post" id="submit-form">
+            {% csrf_token %}
+            <div class="city-search d-flex flex-column align-items-center">
+                <input type="text" class="form-control px-5" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-lg" name="input-city" placeholder="Enter Your City" required>
+                {% comment %} <img class="location" src="/static/img/geo-alt.svg" alt="search" width="20" height="25"> {% endcomment %}
+                <button type="submit" class="btn btn-success my-2 submit-btn">Search</button>
+            </div>
+        </form>
+
+        <p class="text-center my-3" id="loading" style="display: none;"><b>Loading...</b></p>
+
+        <div class="weather-info my-3" id="weather">
+
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#submit-form').submit(function (event) {
+            $('#loading').show()
+            $('#weather').empty();
+            var formData = {
+                'csrfmiddlewaretoken': $('input[name="csrfmiddlewaretoken"]').val(),
+                'city': $('input[name="input-city"]').val()
+            }
+            $.ajax({
+                type: 'POST',
+                url: '',
+                data: formData,
+                encode: true
+            })
+            .done(function (data) {
+                var data = JSON.parse(data)
+                $('#weather').empty();
+                $('#loading').hide() 
+
+                if (data['status'] == 'success'){
+                    mystr = `<hr>
+                        <p class="text-center city-name m-0"><b>${data['city']}, ${data['country']}</b></p>
+                        <p class="text-center date-time"><b><i>${data['date_time']}</i></b></p>
+                        <div class="temp-details d-flex justify-content-evenly align-items-center">
+                            <div class="temp-div d-flex flex-column align-items-center">
+                                <p class="temp">${data['temp']}&#8451;</p>
+                                <p>${data['temp_F']}&#8457;</p>
+                                <p>${data['description']}</p>
+                            </div>
+                            <div class="temp-extra">
+                                <p>Humidity: <span>${data['humidity']}%</span></p>
+                                <p>Feels like: ${data['feels_like']}<span>&#8451;</span></p>
+                                <p>Wind: <span>${data['wind']}km/h</span></p>
+                                <p>Visibility: <span>${data['visibility']}km</span></p>
+                            </div>
+                        </div>  `
+
+                        $('#weather').append(mystr)
+                }
+                else if (data['status'] == 'notfound'){
+                    mystr = `<p class="text-center error-msg">Not Found!</p>`
+                    $('#weather').append(mystr)
+                }
+                else{
+                    mystr = `<p class="text-center error-msg">Something went wrong!</p>`
+                    $('#weather').append(mystr)
+                }
+            })
+
+            event.preventDefault();
+        })
+
+    </script>
+</body>
+
+</html>

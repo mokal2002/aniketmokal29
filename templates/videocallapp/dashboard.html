@@ -1,0 +1,47 @@
+{% load static %}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Welcome, {{name}}!</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation bar -->
+    <nav class="bg-blue-500 text-white p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">Dashboard | Welcome, {{name}}!</h1>
+            <a href="{% url "logout" %}" class="bg-blue-500 text-white rounded-md px-4 py-2 inline-block hover:bg-red-600 focus:outline-none focus:bg-blue-600">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Main content area -->
+    <div class="container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Card 1 -->
+            <a href="{% url 'meeting' %}" class="button">
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h2 class="text-xl font-semibold mb-2">New Metting</h2>
+                <p class="text-gray-600">Create a Meeting.</p>
+            </div>
+          </a>
+            <!-- Card 2 -->
+            <a href="{% url 'join_room' %}" class="button">
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Join Meeting.</h2>
+                <p class="text-gray-600">Join using Invite link.</p>
+            </div>
+          </a>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+
