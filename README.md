@@ -45,6 +45,7 @@
 
 <p align="center">
 <a href="https://github.com/mokal2002/Java-Projects"><img title="Java-Projects" src="https://github-readme-stats.vercel.app/api/pin/?username=mokal2002&repo=Java-Projects&theme=radical"></a>
+<a href="https://github.com/mokal2002/College-Project-eBookLibrary"><img title="College-Project-eBookLibrary" src="https://github-readme-stats.vercel.app/api/pin/?username=mokal2002&repo=College-Project-eBookLibrary&theme=highcontrast"></a>
 </p>
 
 <p align="center">
