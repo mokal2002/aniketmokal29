@@ -8,7 +8,7 @@
 - 👯 I’m looking to collaborate on Github
 - 🥅 2024 Goals: Be a better human 
 - 💬 Ask me about anything
-- 📬 How to reach me: <a href="mailto:aniketmokal29@gmail.com" 
+- 📬 How to reach me: <a href="mailto:aniketmokal29@gmail.com">Gmail</a>
 - 🧗 I trying to push my limits
 - ⚡ Oneday I will make it happen 
 
