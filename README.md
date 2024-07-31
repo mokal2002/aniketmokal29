@@ -2,10 +2,7 @@
 
 <img align="right" height="250px" alt="GIF" src="hero.png" padding="5px" />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mokal2002&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true" alt="Aniket's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mokal2002&layout=compact&hide_title=true&hide_border=true" alt="Top Languages" />
-</p>
+
 
 - 🔭 **Current Focus**: Sharpening my coding prowess across various platforms
 - 🌱 **Learning**: Deep diving into Core Java, Java EE, and Spring Boot to craft robust solutions
@@ -30,6 +27,10 @@
   <a href="https://www.linkedin.com/in/aniketmokal29/" target="_blank"><img alt="LinkedIn" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
   <a href="https://www.instagram.com/mokal_2002" target="_blank"><img alt="Instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
   <a href="https://aniketmokalinfo.pythonanywhere.com" target="_blank"><img alt="Portfolio" width="10%" style="padding:5px" src="https://img.icons8.com/?size=100&id=QiwSMfboPt2R&format=png&color=f000000" /></a>
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mokal2002&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true" alt="Aniket's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mokal2002&layout=compact&hide_title=true&hide_border=true" alt="Top Languages" />
 </p>
 
 <h3 align='center'>⭐ Show Some Love:</h3>
