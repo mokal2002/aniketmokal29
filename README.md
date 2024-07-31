@@ -1,4 +1,4 @@
-<h1 align="center">Heyo <img alt="wave" src="https://emojis.slackmojis.com/emojis/images/1588177020/8809/wave_hello.gif?1588177020" width="35"> It's Aniket Mokal!</h1>
+ <h1 align="center">Heyo <img alt="wave" src="https://emojis.slackmojis.com/emojis/images/1588177020/8809/wave_hello.gif?1588177020" width="35"> It's Aniket Mokal!</h1>
 
 <img align="right" height="250px" alt="GIF" src="hero.png" padding="5px" />
 
