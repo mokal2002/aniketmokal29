@@ -1,7 +1,7 @@
 <h1 align="center">Heyo<img alt="wave" src="https://emojis.slackmojis.com/emojis/images/1588177020/8809/wave_hello.gif?1588177020" width="35">It's Aniket Mokal!  </h1>
 
 
-<img align="right" height="250px" alt="GIF" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fdeveloper&psig=AOvVaw2CLoGLWwXz8tb7NL4QcZQ-&ust=1722520242920000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMiNrZO20YcDFQAAAAAdAAAAABAE" padding="5px" />
+<img align="right" height="250px" alt="GIF" src="hero.png" padding="5px" />
 
 - 🔭 I’m currently focusing on developing coding skills 
 - 🌱 I’m currently focusing on Core Java, Java EE & Spring Boot
