@@ -8,7 +8,7 @@
 - 👯 I’m looking to collaborate on Github
 - 🥅 2024 Goals: Be a better human 
 - 💬 Ask me about anything
-- 📬 How to reach me: <a href="mailto:aniketmokal29@gmail.com">Gmail</a>
+- 📬 How to reach me: <a href="mailto:aniketmokal29@gmail.com" target="_blank">Gmail</a>
 - 🧗 I trying to push my limits
 - ⚡ Oneday I will make it happen 
 
@@ -18,9 +18,9 @@
 
 
 <p align="center" >
-	<a href="https://github.com/mokal2002"><img alt="github" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
-	<a href="https://www.linkedin.com/in/aniketmokal29/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
-	<a href="https://www.instagram.com/mokal_2002"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+	<a href="https://github.com/mokal2002" target="_blank"><img alt="github"  width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
+	<a href="https://www.linkedin.com/in/aniketmokal29/" target="_blank"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.instagram.com/mokal_2002" target="_blank"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
 </p>
 
 
