@@ -21,7 +21,7 @@
 	<a href="https://github.com/mokal2002" target="_blank"><img alt="github"  width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
 	<a href="https://www.linkedin.com/in/aniketmokal29/" target="_blank"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
 	<a href="https://www.instagram.com/mokal_2002" target="_blank"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
-	<a href="https://www.instagram.com/mokal_2002" target="_blank"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/?size=100&id=QiwSMfboPt2R&format=png&color=000000"/></a>
+	<a href="https://www.instagram.com/mokal_2002" target="_blank"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/?size=100&id=QiwSMfboPt2R&format=png&color=f000000"/></a>
 </p>
 
 
