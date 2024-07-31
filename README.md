@@ -2,10 +2,6 @@
 
 <img align="right" height="250px" alt="GIF" src="hero.png" padding="5px" />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mokal2002&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true" alt="Aniket's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mokal2002&layout=compact&hide_title=true&hide_border=true" alt="Top Languages" />
-</p>
 
 - 🔭 I’m currently focusing on developing coding skills
 - 🌱 I'm working on Core Java, Java EE, and Spring Boot
